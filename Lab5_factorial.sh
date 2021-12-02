@@ -1,4 +1,5 @@
-read -p "Enter a number: " n
+echo "Enter a number: " 
+read n
 fact=1
 i=1
 while [ $i -le $n ]
